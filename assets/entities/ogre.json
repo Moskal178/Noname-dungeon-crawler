@@ -1,0 +1,27 @@
+{
+    "name": "ogre",
+    "class": "HostileMob",
+    "sprite_scale": 0.5,
+    "stats": {
+        "health": 24.0,
+        "damage": 5.0,
+        "movement_speed": 0.3
+    },
+    "sounds": {
+        "attack": "ogre_attack",
+        "hurt": "ogre_hurt",
+        "death": "ogre_death"
+    },
+    "animations": [
+        {
+            "state": "IDLE",
+            "name": "ogre_idle_anim",
+            "rate": 0.25
+        },
+        {
+            "state": "MOVING",
+            "name": "ogre_run_anim",
+            "rate": 0.25
+        }
+    ]
+}

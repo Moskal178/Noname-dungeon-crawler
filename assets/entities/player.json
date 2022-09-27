@@ -1,0 +1,26 @@
+{
+    "name": "player",
+    "class": "Player",
+    "sprite_scale": 0.3,
+    "stats": {
+        "health": 20.0,
+        "damage": 5.0,
+        "movement_speed": 1.35
+    },
+    "sounds": {
+        "hurt": "player_hurt",
+        "death": "player_death"
+    },
+    "animations": [
+        {
+            "state": "IDLE",
+            "name": "knight_m_idle_anim",
+            "rate": 0.25
+        },
+        {
+            "state": "MOVING",
+            "name": "knight_m_run_anim",
+            "rate": 0.1
+        }
+    ]
+}
